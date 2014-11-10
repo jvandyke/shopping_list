@@ -1,0 +1,43 @@
+
+.action button {
+  font-family: arial;
+  font-weight: bold;
+  color: #F5F5F5 !important;
+  font-size: 15px;
+  text-shadow: 1px 1px 0px #ABA8A7;
+  box-shadow: 1px 1px 1px #F9A755;
+  padding: 10px 25px;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  border-radius: 18px;
+  background: #FFB543;
+  background: linear-gradient(top,  #EE9E13,  #CF3C1F);
+  background: -ms-linear-gradient(top,  #EE9E13,  #CF3C1F);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EE9E13), to(#CF3C1F));
+  background: -moz-linear-gradient(top,  #EE9E13,  #CF3C1F);
+}
+.action button:hover {
+  color: #14396A !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #468CCF,  #63B8EE);
+  background: -ms-linear-gradient(top,  #468CCF,  #63B8EE);
+  background: -webkit-gradient(linear, left top, left bottom, from(#468CCF), to(#63B8EE));
+  background: -moz-linear-gradient(top,  #468CCF,  #63B8EE);
+}
+
+input {
+   border: 1px solid #adc2ff;
+   background: #d3e2ff;
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   color: #c9b7a2;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   }
+
+
+

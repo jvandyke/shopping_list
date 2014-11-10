@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/form.css">
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light|Indie+Flower' rel='stylesheet' type='text/css'>	
+	<script src="jquery-1.11.1.min.js"></script>
+	<script src="assets/js/app.js"></script>
+</head>
+
+<body>
+	<section class="intro">
+		<div class="icon">
+				<img src="assets/img/cart-icon.png" />
+		<div>
+		<div class="description">
+			<h1> Shopping List App</h1>
+			<h2> By Ruohong Leo</h2>
+		</div>
+	</section>
+	<section class="form">
+		<div class="action">
+			<button type="submit">+</button>
+		</div>
+		<div class="item">
+			<p>Item Description</p>
+			<input class='edititem' size='55' placeholder='Your Item'>
+		</div>
+		<div class="price">
+			<p>Price</p>
+			<input class='editprice' type='number' min='0' max='1000' value='0'>
+		</div>
+
+		<div class="quantity">
+			<p>Quantity</p>
+			<input class='editquantity' type='number' min='1' max='1000' value='1'>
+		</div>
+		<div id="error" style="display: none;">Enter what you're shopping for.</div>
+	</section>
+	<section class="a-item">
+		<ul id="list">
+			<li class="example">
+			<div class="action-image">
+				<img class="delete" src="assets/img/delete.png">
+				<img class="check" src="assets/img/check.png">
+			</div>
+
+			<div class="item-data">
+				<span class="a-item-description">Apple</span>
+			</div>
+
+			<div class="price-data">
+				<span class="a-price">$10.00</span>
+			</div>
+
+			<div class="quantity-data">
+				<span class="a-quantity">1</span>
+			</div>
+
+			<div class="sum">
+			</div>
+		</li>
+		</ul>
+	</section>
+</body>
+
+</html>
