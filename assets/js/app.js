@@ -15,7 +15,7 @@ $(document).ready(function(){
 		$(this).closest('li').css("background-color", "red");
 	});
 
-	$('.delete').on('click', function(){
+	$('.delete').on('click', function(event){
 		event.preventDefault();
 		$(this).closest('li').remove();
 	});
